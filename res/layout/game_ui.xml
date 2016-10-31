@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="80dp"
+        android:text="Down" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_down"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:text="Left" />
+    
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_left"
+        android:layout_alignLeft="@+id/button_down"
+        android:text="Up" />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_left"
+        android:layout_toRightOf="@+id/button_left"
+        android:layout_marginLeft="40dp"
+        android:text="Right" />
+
+    <Button
+        android:id="@+id/button_attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="60dp"
+        android:text="Attack" />
+
+    <Button
+        android:id="@+id/button_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_attack"
+        android:layout_alignLeft="@+id/button_attack"
+        android:layout_marginBottom="10dp"
+        android:text="Action" />
+
+    <ImageButton
+        android:id="@+id/pause_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/pause_button_image" />
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:scrollHorizontally="false"
+        android:maxLines="3"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="0 HP" />
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="45dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="$ 0" />
+
+    <TextView
+        android:id="@+id/kills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="75dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="0 Kills" />
+
+</RelativeLayout>
