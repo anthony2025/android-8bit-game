@@ -1,4 +1,4 @@
-UVA CS 2110 final group project, android 8-bit adventure game
+CS 2110 final group project, android 8-bit adventure game
 
 ### Group members:
 * Ryan McCampbell
