@@ -1,9 +1,9 @@
 CS 2110 final group project, android 8-bit adventure game
 
 ### Group members:
-* Ryan McCampbell
-* Tyler Ealy
+* [Ryan McCampbell] (https://github.com/rmccampbell)
 * Anthony Ascencio
+* Tyler Ealy
 * Logan Bunte
 
 ### Sources:
