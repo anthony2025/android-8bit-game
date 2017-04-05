@@ -1,5 +1,7 @@
 CS 2110 final group project, android 8-bit adventure game
 
+![Screenshot](/screenshot.png?raw=true "Screenshot")
+
 ### Group members:
 * [Ryan McCampbell] (https://github.com/rmccampbell)
 * Anthony Ascencio
